@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/responsive.css">
+        
+        <!-- material icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- owl css -->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+        <title>Netflix</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h2 class="logo">NETFLIX</h2>
+                <nav>
+                    <a href="#">Início</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Bombando</a>
+                    <a href="#">Minha Lista</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="filme-principal">
+                <div class="container">
+                    <h3 class="titulo">O SILÊNCIO DOS INOCENTES</h3>
+                    <p class="descricao"> 
+                        Neste filme, a jovem e inexperiente Agente do FBI, Clarice Starling vai precisar da ajuda de Hannibal Lecter, um canibal perigoso e manipulador, para capturar um assassino em série.
+                    </p>
+                    <a href="#" role="button" class="btn btn-play">
+                        <i class="material-icons">&#xe037;</i>
+                        Assistir
+                    </a>
+                    <a href="#popup-info" role="button" class="btn btn-info">
+                        <i class="material-icons-outlined">&#xe88e;</i>
+                        Mais informações
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <div id="popup-info" class="container-popup">
+            <div class="popup">
+                <div class="popup-poster">
+                    <a href="#" role="button" class="btn btn-close">
+                        <i class="material-icons">&#xe5cd;</i>
+                    </a>
+                    <div class="poster-container">
+                        <h3 class="titulo">O SILÊNCIO DOS INOCENTES</h3>
+                        <div class="info">
+                            <span class="idade"> 16 </span>
+                            <span class="status"> 1991 - 1h 58min</span>
+                        </div>
+                        <a href="#" role="button" class="btn btn-play">
+                            <i class="material-icons">&#xe037;</i>
+                            Assistir
+                        </a>
+                        <a href="#" role="button" class="btn btn-lista">
+                            <i class="material-icons">&#xe145;</i>
+                        </a>
+                    </div>
+                </div>
+                <div class="popup-descricao">
+                    <p class="descricao">
+                        Um assassino de mulheres, um psiquiatra louco e uma linda agente do FBI numa perseguição implacável. Neste filme, a jovem e inexperiente Agente do FBI, Clarice Starling vai precisar da ajuda de Hannibal Lecter, um canibal perigoso e manipulador, para capturar um assassino em série.
+                    </p>
+                </div>
+                <div class="popup-sobre">
+                    <p class="sobre">Sobre <strong>O Silêncio dos Inocentes</strong></p>
+                    <div class="sobre-container">
+                        <p class="sobre-titulo">Direção: </p>
+                        <p class="sobre-info">Jonathan Demme</p>
+                    </div>
+                    <div class="sobre-container">
+                        <p class="sobre-titulo">Elenco: </p>
+                        <p class="sobre-info">Jodie Foster, Anthony Hopkins, Scott Glenn, Ted Levine
+                        </p>
+                    </div>
+                    <div class="sobre-container">
+                        <p class="sobre-titulo">Roteiro: </p>
+                        <p class="sobre-info">Ted Tally</p>
+                    </div>
+                    <div class="sobre-container">
+                        <p class="sobre-titulo">Genêros: </p>
+                        <p class="sobre-info">Terror, Drama, Terror, Violento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carrosel-filmes">
+            <p class="carrosel-titulo">Especial Halloween</p>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filmes" src="img/min5.jpg" alt="Capa do filme A Hora do Pesadelo">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/min6.jpg" alt="Capa do filme Psicose">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/min8.jpg" alt="Capa do filme O Iluminado">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/min9.jpg" alt="Capa do filme Carrie">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/min10.jpg" alt="Capa do filme A Noite dos Mortos Vivos">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/min1.jpg" alt="Capa do filme O Exorcismo de Emily Rose">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/min4.jpg" alt="Capa do filme Sexta-Feira 13">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/min3.jpg" alt="Capa do filme O Massacre da Serra Elétrica">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/min2.jpg" alt="Capa do filme Halloween: A Noite do Terror">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/min7.jpg" alt="Capa do filme Olhos Famintos">
+                </div>
+            </div>
+        </div>
+
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/main.js"></script>
+
+    </body>
+</html>
