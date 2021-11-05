@@ -1,6 +1,6 @@
 ## Clone da Interface da Netflix
 
-Este repositório foi criado para acompanhar o projeto desenvolvido durante o curso "Recriando a Interface da Netflix" da Digitanl Innovation One - DIO.
+Este repositório foi criado para acompanhar o projeto desenvolvido durante o curso "Recriando a Interface da Netflix" da Digital Innovation One - DIO.
 
 
 Além do que foi apresentado no curso, inclui um pop-up para mostrar informações adicionais sobre o filme em destaque. È possível visualizar o pop-up ao clicar no botão "Mais Informações", assim o mesmo abre uma nova janela e exibe mais algumas informações sobre o filme.
